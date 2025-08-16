@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #1d7874;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+
+.box{
+    background-color: #f4c095;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: solid black;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: #EE2E31; 
+}
+#resetBtn{
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 40%;
+    box-shadow: 0 0 2rem rgba(0,0,0,3);
+    font-size: 2.5vmin;
+    background-color: #f4c095;
+    color: #6c0506;
+}
+.msg-container{
+    height: 10vmin;
+}
+
+#msg{
+    font-size: 5vmin;
+    color:coral;
+}
+
+.hide{
+    display: none;
+}
+#new{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vmin;
+    width: 10vmin;
+    border-radius: 40%;
+    box-shadow: 0 0 2rem rgba(0,0,0,3);
+    font-size: 2.5vmin;
+    background-color: #f4c095;
+    color: #6c0506;
+}
+.btn-container {
+  display: flex;
+  justify-content: center; /* center them horizontally */
+  align-items: center;     /* vertical alignment */
+  gap: 2vmin;              /* spacing between buttons */
+  margin-top: 20px;        /* add space below the game */
+}

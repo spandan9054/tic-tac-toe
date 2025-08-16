@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;              /* First time */
+    background-color: #00A878;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;              /* Second time */
+    flex-direction: column;     /* ... */
+}
+
+.XO {
+    display: flex;
+    gap: 2px; /* space between X and O */
+}
+
+#X {
+    display: flex;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    border: solid black;
+    background-color: #F3C178;
+}
+
+#O{
+    display: flex;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    border: solid black;
+    background-color: #F3C178;
+}
+#ttt{
+    background-image: url("tic tac.jpg");
+    display: flex;
+    background-color: aqua;
+    height: 180px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border-radius: 25%;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    border: solid black;
+    margin-top: 7px;
+    background-color: #F3C178;
+}
+
+#play{
+    display: flex;
+    height: 20px;
+    width: 75px;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    border-radius: 25%;
+    cursor: pointer;
+    background-color: #F3C178;
+}
+
+.playerData{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    background-color: antiquewhite;
+    border-radius: 15%;
+    flex-direction: row-reverse;
+}
+
+.data{
+    display: flex;
+    margin-top: 8px;
+    width: 150px;
+}
+
+#start{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+#start{
+    border-radius: 30px;
+    background-color: #f4c095;
+    color: #6c0506;
+}
