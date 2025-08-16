@@ -55,7 +55,6 @@ resetBtn.addEventListener("click", () => {
 });
 
 const showWinner= (winner) =>{
-    pop.classList.add("popup");
     let winnerName=winner === "O"?player1.toUpperCase():player2.toLowerCase();
     msg.innerText=`CONGRATULATIONS 👑 winner 👑 IS ${winnerName}`;
     msgContainer.classList.remove("hide");
@@ -82,4 +81,5 @@ const checkWinner= () =>{
         msg.innerText="Draw Game... Don't Stop...";
         msgContainer.classList.remove("hide");
     }
+
 }
